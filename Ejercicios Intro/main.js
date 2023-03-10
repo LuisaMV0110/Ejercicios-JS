@@ -142,7 +142,7 @@ console.log(familia[2]);
 console.log(familia[3]);
 console.log(familia[4]);
 //16
-let textoAleatorio = frutas[1] + numeros[3] + familia[4];
+let textoAleatorio = frutas[1] + numeros[3] + JSON.stringify(familia[4]);
 console.log(textoAleatorio);
 //17
 miEdad = Number(prompt('¿Cúal es mi edad?'));
@@ -168,4 +168,4 @@ console.log('Puede subir: ' + puedeSubir);
 let pase = 'VIP';
 let saldo = 1000;
 let puedePasar = pase === 'VIP' || saldo > 1000;
-console.log('La persona puede pasar: ' + puedePasar)
+console.log('La persona puede pasar: ' + puedePasar);
